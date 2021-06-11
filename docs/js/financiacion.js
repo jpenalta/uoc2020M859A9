@@ -125,6 +125,14 @@ svg.selectAll("mylabels")
     .attr("text-anchor", "left")
     .style("alignment-baseline", "middle")
 
+svg.selectAll("footer")
+	.enter()
+	.append("text")
+	.attr("x", 20)
+    	.attr("y", 100) 
+    	.text("Figura 1: Financiación de las escuelas")
+    	.style("alignment-baseline", "middle")
+
 
 var tooltip = d3.select("#financiacion")
     .append("div")
