@@ -75,7 +75,7 @@ d3.csv("data/recursostic.csv", function(data1) {
 
   // Add X axis
   var x = d3.scaleLinear()
-    .domain([0, 1.5])
+    .domain([0, 1.8])
     .range([ 0, width]);
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
